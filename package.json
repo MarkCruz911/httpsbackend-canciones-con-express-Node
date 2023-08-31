@@ -1,0 +1,29 @@
+{
+    "name": "apirest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./app.js",
+        "dev": "nodemon ./app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@slack/webhook": "^6.1.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-validator": "^7.0.1",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.1.1",
+        "mongoose-delete": "^1.0.1",
+        "morgan-body": "^2.6.9",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.5.1",
+        "sequelize": "^6.32.1"
+    }
+}
